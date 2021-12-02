@@ -11,4 +11,12 @@ class CongressFacade
         found_members = members.find_all {|m| m[:last_name] == search_param}
         SenateMember.new(found_members.first)
     end 
+
+    def self.house_members_by_state(state)
+        house_members = CongressService.house_members(state)[:results]
+
+        house_members.map do |house_member_data|
+            HouseMember.new(house_member_data)
+        end
+    end 
 end 

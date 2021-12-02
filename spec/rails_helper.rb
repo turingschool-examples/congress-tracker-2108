@@ -119,3 +119,26 @@ def senate_member_data
     :votes_with_party_pct=>83.37,
     :votes_against_party_pct=>16.63}
 end 
+
+def house_member_data 
+  {
+    "id": "D000197",
+    "name": "Diana DeGette",
+    "first_name": "Diana",
+    "middle_name": nil,
+    "last_name": "DeGette",
+    "suffix": nil,
+    "role": "Representative",
+    "gender": "F",
+    "party": "D",
+    "times_topics_url": nil,
+    "twitter_id": "RepDianaDeGette",
+    "facebook_account": "DianaDeGette",
+    "youtube_id": "RepDianaDeGette",
+    "seniority": "26",
+    "next_election": "2022",
+    "api_uri": "https://api.propublica.org/congress/v1/members/D000197.json",
+    "district": "1",
+    "at_large": false
+}
+end 

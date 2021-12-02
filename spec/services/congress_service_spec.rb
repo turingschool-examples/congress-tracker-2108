@@ -24,5 +24,19 @@ RSpec.describe 'Propublica Congress Service' do
         expect(first_senator_data[:twitter_account]).to be_a String
 
     end 
+
+    it 'can get all house members for a specific state', :vcr do 
+      response = CongressService.house_members('CO')
+
+      expect(response).to be_a Hash 
+      expect(response[:results]).to be_a Array 
+
+      house_member = response[:results].first
+
+      expect(house_member[:name]).to be_a String
+      expect(house_member[:role]).to be_a String
+      expect(house_member[:party]).to be_a String
+      expect(house_member[:district]).to be_a String
+    end 
   end 
 end 
