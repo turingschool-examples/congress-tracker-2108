@@ -27,27 +27,27 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Thu, 02 Dec 2021 17:29:58 GMT
+      - Thu, 16 Dec 2021 14:30:03 GMT
       X-Amzn-Requestid:
-      - beb9fdfc-9974-4ddf-bfac-46fa9946ce08
+      - a047e963-23a5-4690-9fca-6ce9bff19b2f
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Headers:
       - Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token
       X-Amz-Apigw-Id:
-      - Ju1XhFJboAMFn1w=
+      - KckIwGOvIAMF-oA=
       Access-Control-Allow-Methods:
       - GET,OPTIONS
       X-Amzn-Trace-Id:
-      - Root=1-61a90296-36afc6b2652e20c02d5eeb17;Sampled=0
+      - Root=1-61bb4d6b-107efd7a66536f9f297b18a5;Sampled=0
       X-Cache:
       - Miss from cloudfront
       Via:
-      - 1.1 005feeb191354cdd4c4f9057f59bef51.cloudfront.net (CloudFront)
+      - 1.1 599b9600e4966f19b30202be0b0d649e.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
-      - DEN50-C1
+      - DEN52-C1
       X-Amz-Cf-Id:
-      - KJpivLWZ3f6BwzGml18ayBAy2U82q6PEYEQgqTo0B2keKse3Naa7Kg==
+      - AIQr2yXUkYnZp6pvF_PQrgAKHR6tuTBeIerbc1DA69w2QcxXuZ8ACA==
     body:
       encoding: UTF-8
       string: "{\n   \"status\":\"OK\",\n   \"copyright\":\" Copyright (c) 2021 Pro
@@ -2688,5 +2688,5 @@ http_interactions:
         \"senior\",\n                 \"lis_id\": \"S391\"\n                 ,\"missed_votes_pct\":
         1.81,\n                 \"votes_with_party_pct\": 94.99,\n                 \"votes_against_party_pct\":
         5.01\n               }\n             ]\n      }\n   ]\n}\n"
-  recorded_at: Thu, 02 Dec 2021 17:29:58 GMT
+  recorded_at: Thu, 16 Dec 2021 14:30:03 GMT
 recorded_with: VCR 6.0.0

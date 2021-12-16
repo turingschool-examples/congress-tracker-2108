@@ -27,27 +27,27 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Thu, 02 Dec 2021 15:44:02 GMT
+      - Thu, 16 Dec 2021 14:30:45 GMT
       X-Amzn-Requestid:
-      - 1827f6e0-a598-484b-8709-8b340f02189a
+      - 96b4b778-3a4b-4c33-8749-ce9766954bc3
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Headers:
       - Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token
       X-Amz-Apigw-Id:
-      - Jul2dGm6oAMF8zw=
+      - KckPcHM2oAMFo8Q=
       Access-Control-Allow-Methods:
       - GET,OPTIONS
       X-Amzn-Trace-Id:
-      - Root=1-61a8e9c2-70c23ce9685606a10bd99704;Sampled=0
+      - Root=1-61bb4d95-6fb05ac92c30036b36b615d8;Sampled=0
       X-Cache:
       - Miss from cloudfront
       Via:
-      - 1.1 02400e961e7094d2c4fff83bc2205fc3.cloudfront.net (CloudFront)
+      - 1.1 bcab77f1ffe9d73bbe5ff7a973cd0161.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
-      - DEN50-C1
+      - DEN52-C1
       X-Amz-Cf-Id:
-      - fcVJH5ZZfilT3P52rwgygYgCjPX3-mgs9T8SVy-c2r3eSxYHhuu1gA==
+      - FO8pr18FJJy9txRfYi9QRwexI6JPG6CdDKt7sPxvvN4mYFiwRlKdxA==
     body:
       encoding: UTF-8
       string: |
@@ -196,5 +196,5 @@ http_interactions:
                  "at_large": false
               }
         ]}
-  recorded_at: Thu, 02 Dec 2021 15:44:02 GMT
+  recorded_at: Thu, 16 Dec 2021 14:30:45 GMT
 recorded_with: VCR 6.0.0

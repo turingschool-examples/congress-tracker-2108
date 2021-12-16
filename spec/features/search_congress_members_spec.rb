@@ -11,7 +11,7 @@ RSpec.describe 'Govt Search' do
       #   }).
       # to_return(status: 200, body: json_response, headers: {})
 
-      visit root_path
+      visit '/search'
 
       fill_in :search, with: "Sanders"
       click_button "Search"
@@ -23,7 +23,7 @@ RSpec.describe 'Govt Search' do
 
     it 'allows user to search for another govt member' do
       VCR.use_cassette('propublica_members_of_the_senate', re_record_interval: 7.days) do
-        visit root_path
+        visit search_path
 
         fill_in :search, with: 'Booker'
         click_button 'Search'
