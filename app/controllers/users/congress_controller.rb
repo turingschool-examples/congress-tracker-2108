@@ -1,4 +1,5 @@
-class CongressController < ApplicationController
+class CongressController < BaseController
+  before_action :require_user
 
   def search
     @member = CongressFacade.find_senate_member(params[:search])
@@ -10,5 +11,6 @@ class CongressController < ApplicationController
     @house_members = CongressFacade.house_members_by_state(state)
     render "search/index"
   end
+
 
 end

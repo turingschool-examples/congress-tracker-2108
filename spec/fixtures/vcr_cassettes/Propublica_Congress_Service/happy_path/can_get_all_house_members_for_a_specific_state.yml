@@ -27,33 +27,33 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Thu, 16 Dec 2021 14:30:03 GMT
+      - Wed, 05 Jan 2022 03:04:32 GMT
       X-Amzn-Requestid:
-      - 2fb6e4f4-17e6-49a9-9bab-c187d4a8da1e
+      - 711a6be1-9ea4-4589-b879-8a46aa52e7d4
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Headers:
       - Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token
       X-Amz-Apigw-Id:
-      - KckIyFBXoAMFSYg=
+      - Lc6eGH7eIAMFxyg=
       Access-Control-Allow-Methods:
       - GET,OPTIONS
       X-Amzn-Trace-Id:
-      - Root=1-61bb4d6b-753e6ff33071825a097dc649;Sampled=0
+      - Root=1-61d50ac0-0bb775da4fc5fa607d337f38;Sampled=0
       X-Cache:
       - Miss from cloudfront
       Via:
-      - 1.1 9d8f66b0c71d2e8a1b8c6f76102da8ca.cloudfront.net (CloudFront)
+      - 1.1 be1936c1908faca6448a305dec94dc73.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-C1
       X-Amz-Cf-Id:
-      - kgiGrr3pN44JHk5Jn09uhtmVO6CTPN7ZDIvEo6-W7YG8fR9YExgOfA==
+      - 9ESJUXYSuQaZcTHA_SFMQgaeMQjDzD9tCHagAxoL-ILRk2TZp6agaA==
     body:
       encoding: UTF-8
       string: |
         {
            "status":"OK",
-           "copyright":"Copyright (c) 2021 Pro Publica Inc. All Rights Reserved.",
+           "copyright":"Copyright (c) 2022 Pro Publica Inc. All Rights Reserved.",
            "results":[
               {
                  "id": "D000197",
@@ -196,5 +196,5 @@ http_interactions:
                  "at_large": false
               }
         ]}
-  recorded_at: Thu, 16 Dec 2021 14:30:03 GMT
+  recorded_at: Wed, 05 Jan 2022 03:04:32 GMT
 recorded_with: VCR 6.0.0

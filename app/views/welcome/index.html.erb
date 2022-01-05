@@ -1,4 +1,8 @@
 WELCOME!
 
-<%= link_to "Register", '/register' %>
-<%= link_to "Log In", '/login' %>
+<% if current_user%>
+    <%= link_to "Log Out", '/logout', method: :delete %>
+<% else %>
+    <%= link_to "Register", '/register' %>
+    <%= link_to "Log In", '/login' %>
+<% end %>
