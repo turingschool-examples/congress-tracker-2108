@@ -23,34 +23,34 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '215168'
+      - '214979'
       Connection:
       - keep-alive
       Date:
-      - Tue, 30 Nov 2021 17:46:25 GMT
+      - Tue, 11 Jan 2022 15:13:13 GMT
       X-Amzn-Requestid:
-      - dfbf88a1-fbf2-49ab-9df8-e4d27bccf9cd
+      - 51d4c5cb-41fe-411d-820e-9b222f6dbbdf
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Headers:
       - Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token
       X-Amz-Apigw-Id:
-      - JoR5wFzSoAMFTGA=
+      - LyW1kFT8IAMFpkQ=
       Access-Control-Allow-Methods:
       - GET,OPTIONS
       X-Amzn-Trace-Id:
-      - Root=1-61a66371-03d3dcb92cb4b31263965e65;Sampled=0
+      - Root=1-61dd9e89-13e80f8609c62abf19a25e43;Sampled=0
       X-Cache:
       - Miss from cloudfront
       Via:
-      - 1.1 e36ab1b8726f47aa5adc8e19e66d1bbe.cloudfront.net (CloudFront)
+      - 1.1 f5cdd38f09a779678a15f788f0f3cbe2.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
-      - SEA19-C2
+      - DEN52-C1
       X-Amz-Cf-Id:
-      - vdTwn6R5GJLH3bi8MW28z3GGrLxn_VyTtzrp7IJJvjDogf_fQV8mPA==
+      - bCuejC9zvt9jwgT0TbgpoiIokGRwNIzkoX2fVYRDVd-GCIMgSWuSfg==
     body:
       encoding: UTF-8
-      string: "{\n   \"status\":\"OK\",\n   \"copyright\":\" Copyright (c) 2021 Pro
+      string: "{\n   \"status\":\"OK\",\n   \"copyright\":\" Copyright (c) 2022 Pro
         Publica Inc. All Rights Reserved.\",\n   \"results\":[\n      {\n         \"congress\":
         \"116\",\n         \"chamber\": \"Senate\",\n         \n         \n         \"num_results\":
         102,\n         \"offset\": 0,\n         \"members\": [\n              {\n
@@ -93,7 +93,7 @@ http_interactions:
         \"57884\",\n                 \"votesmart_id\": \"3470\",\n                 \"icpsr_id\":
         \"29940\",\n                 \"crp_id\": \"N00004367\",\n                 \"google_entity_id\":
         \"/m/024v02\",\n                 \"fec_candidate_id\": \"H8WI00018\",\n                 \"url\":
-        \"https://www.baldwin.senate.gov\",\n                 \"rss_url\": \"https://www.baldwin.senate.gov/rss/feeds/?type=all\",\n
+        \"https://www.baldwin.senate.gov\",\n                 \"rss_url\": null,\n
         \                \"contact_form\": \"https://www.baldwin.senate.gov/feedback\",\n
         \                \"in_office\": false,\n                 \"cook_pvi\": null,\n
         \                \"dw_nominate\": -0.493,\n                 \"ideal_point\":
@@ -481,22 +481,21 @@ http_interactions:
         \"47036\",\n                 \"votesmart_id\": \"2541\",\n                 \"icpsr_id\":
         \"40703\",\n                 \"crp_id\": \"N00027503\",\n                 \"google_entity_id\":
         \"/m/047ymw\",\n                 \"fec_candidate_id\": \"S6PA00217\",\n                 \"url\":
-        \"https://www.casey.senate.gov\",\n                 \"rss_url\": \"https://www.casey.senate.gov/rss/feeds/?all\",\n
-        \                \"contact_form\": \"https://www.casey.senate.gov/contact/\",\n
-        \                \"in_office\": false,\n                 \"cook_pvi\": null,\n
-        \                \"dw_nominate\": -0.315,\n                 \"ideal_point\":
-        null,\n                 \"seniority\": \"13\",\n                 \"next_election\":
-        \"2024\",\n                 \"total_votes\": 717,\n                 \"missed_votes\":
-        0,\n                 \"total_present\": 1,\n                 \"last_updated\":
-        \"2020-12-30 19:01:18 -0500\",\n                 \"ocd_id\": \"ocd-division/country:us/state:pa\",\n
-        \                \"office\": \"393 Russell Senate Office Building\",\n                 \"phone\":
-        \"202-224-6324\",\n                 \"fax\": null,\n                 \"state\":
-        \"PA\",\n                 \"senate_class\": \"1\",\n                 \"state_rank\":
-        \"senior\",\n                 \"lis_id\": \"S309\"\n                 ,\"missed_votes_pct\":
-        0.00,\n                 \"votes_with_party_pct\": 95.38,\n                 \"votes_against_party_pct\":
-        4.62\n               },\n                           {\n                 \"id\":
-        \"C001075\",\n                 \"title\": \"Senator, 2nd Class\",\n                 \"short_title\":
-        \"Sen.\",\n                 \"api_uri\":\"https://api.propublica.org/congress/v1/members/C001075.json\",\n
+        \"https://www.casey.senate.gov\",\n                 \"rss_url\": null,\n                 \"contact_form\":
+        \"https://www.casey.senate.gov/contact/\",\n                 \"in_office\":
+        false,\n                 \"cook_pvi\": null,\n                 \"dw_nominate\":
+        -0.315,\n                 \"ideal_point\": null,\n                 \"seniority\":
+        \"13\",\n                 \"next_election\": \"2024\",\n                 \"total_votes\":
+        717,\n                 \"missed_votes\": 0,\n                 \"total_present\":
+        1,\n                 \"last_updated\": \"2020-12-30 19:01:18 -0500\",\n                 \"ocd_id\":
+        \"ocd-division/country:us/state:pa\",\n                 \"office\": \"393
+        Russell Senate Office Building\",\n                 \"phone\": \"202-224-6324\",\n
+        \                \"fax\": null,\n                 \"state\": \"PA\",\n                 \"senate_class\":
+        \"1\",\n                 \"state_rank\": \"senior\",\n                 \"lis_id\":
+        \"S309\"\n                 ,\"missed_votes_pct\": 0.00,\n                 \"votes_with_party_pct\":
+        95.38,\n                 \"votes_against_party_pct\": 4.62\n               },\n
+        \                          {\n                 \"id\": \"C001075\",\n                 \"title\":
+        \"Senator, 2nd Class\",\n                 \"short_title\": \"Sen.\",\n                 \"api_uri\":\"https://api.propublica.org/congress/v1/members/C001075.json\",\n
         \                \"first_name\": \"Bill\",\n                 \"middle_name\":
         null,\n                 \"last_name\": \"Cassidy\",\n                 \"suffix\":
         null,\n                 \"date_of_birth\": \"1957-09-28\",\n                 \"gender\":
@@ -713,22 +712,21 @@ http_interactions:
         \"1019953\",\n                 \"votesmart_id\": \"135705\",\n                 \"icpsr_id\":
         \"41304\",\n                 \"crp_id\": \"N00033085\",\n                 \"google_entity_id\":
         \"/m/07j6ty\",\n                 \"fec_candidate_id\": \"S2TX00312\",\n                 \"url\":
-        \"https://www.cruz.senate.gov\",\n                 \"rss_url\": \"https://www.cruz.senate.gov/rss/\",\n
-        \                \"contact_form\": \"https://www.cruz.senate.gov/?p=form&id=16\",\n
-        \                \"in_office\": false,\n                 \"cook_pvi\": null,\n
-        \                \"dw_nominate\": 0.826,\n                 \"ideal_point\":
-        null,\n                 \"seniority\": \"7\",\n                 \"next_election\":
-        \"2024\",\n                 \"total_votes\": 717,\n                 \"missed_votes\":
-        37,\n                 \"total_present\": 0,\n                 \"last_updated\":
-        \"2020-12-30 19:01:18 -0500\",\n                 \"ocd_id\": \"ocd-division/country:us/state:tx\",\n
-        \                \"office\": \"127a Russell Senate Office Building\",\n                 \"phone\":
-        \"202-224-5922\",\n                 \"fax\": null,\n                 \"state\":
-        \"TX\",\n                 \"senate_class\": \"1\",\n                 \"state_rank\":
-        \"junior\",\n                 \"lis_id\": \"S355\"\n                 ,\"missed_votes_pct\":
-        5.16,\n                 \"votes_with_party_pct\": 92.30,\n                 \"votes_against_party_pct\":
-        7.70\n               },\n                           {\n                 \"id\":
-        \"D000618\",\n                 \"title\": \"Senator, 2nd Class\",\n                 \"short_title\":
-        \"Sen.\",\n                 \"api_uri\":\"https://api.propublica.org/congress/v1/members/D000618.json\",\n
+        \"https://www.cruz.senate.gov\",\n                 \"rss_url\": null,\n                 \"contact_form\":
+        \"https://www.cruz.senate.gov/?p=form&id=16\",\n                 \"in_office\":
+        false,\n                 \"cook_pvi\": null,\n                 \"dw_nominate\":
+        0.826,\n                 \"ideal_point\": null,\n                 \"seniority\":
+        \"7\",\n                 \"next_election\": \"2024\",\n                 \"total_votes\":
+        717,\n                 \"missed_votes\": 37,\n                 \"total_present\":
+        0,\n                 \"last_updated\": \"2020-12-30 19:01:18 -0500\",\n                 \"ocd_id\":
+        \"ocd-division/country:us/state:tx\",\n                 \"office\": \"127a
+        Russell Senate Office Building\",\n                 \"phone\": \"202-224-5922\",\n
+        \                \"fax\": null,\n                 \"state\": \"TX\",\n                 \"senate_class\":
+        \"1\",\n                 \"state_rank\": \"junior\",\n                 \"lis_id\":
+        \"S355\"\n                 ,\"missed_votes_pct\": 5.16,\n                 \"votes_with_party_pct\":
+        92.30,\n                 \"votes_against_party_pct\": 7.70\n               },\n
+        \                          {\n                 \"id\": \"D000618\",\n                 \"title\":
+        \"Senator, 2nd Class\",\n                 \"short_title\": \"Sen.\",\n                 \"api_uri\":\"https://api.propublica.org/congress/v1/members/D000618.json\",\n
         \                \"first_name\": \"Steve\",\n                 \"middle_name\":
         null,\n                 \"last_name\": \"Daines\",\n                 \"suffix\":
         null,\n                 \"date_of_birth\": \"1962-08-20\",\n                 \"gender\":
@@ -1309,22 +1307,21 @@ http_interactions:
         \"49219\",\n                 \"votesmart_id\": \"50772\",\n                 \"icpsr_id\":
         \"41305\",\n                 \"crp_id\": \"N00033177\",\n                 \"google_entity_id\":
         \"/m/053f8h\",\n                 \"fec_candidate_id\": \"S2VA00142\",\n                 \"url\":
-        \"https://www.kaine.senate.gov\",\n                 \"rss_url\": \"https://www.kaine.senate.gov/rss/feeds/\",\n
-        \                \"contact_form\": \"https://www.kaine.senate.gov/contact\",\n
-        \                \"in_office\": false,\n                 \"cook_pvi\": null,\n
-        \                \"dw_nominate\": -0.243,\n                 \"ideal_point\":
-        null,\n                 \"seniority\": \"7\",\n                 \"next_election\":
-        \"2024\",\n                 \"total_votes\": 717,\n                 \"missed_votes\":
-        17,\n                 \"total_present\": 1,\n                 \"last_updated\":
-        \"2020-12-30 19:01:18 -0500\",\n                 \"ocd_id\": \"ocd-division/country:us/state:va\",\n
-        \                \"office\": \"231 Russell Senate Office Building\",\n                 \"phone\":
-        \"202-224-4024\",\n                 \"fax\": null,\n                 \"state\":
-        \"VA\",\n                 \"senate_class\": \"1\",\n                 \"state_rank\":
-        \"junior\",\n                 \"lis_id\": \"S362\"\n                 ,\"missed_votes_pct\":
-        2.37,\n                 \"votes_with_party_pct\": 94.98,\n                 \"votes_against_party_pct\":
-        5.02\n               },\n                           {\n                 \"id\":
-        \"K000377\",\n                 \"title\": \"Senator, 3rd Class\",\n                 \"short_title\":
-        \"Sen.\",\n                 \"api_uri\":\"https://api.propublica.org/congress/v1/members/K000377.json\",\n
+        \"https://www.kaine.senate.gov\",\n                 \"rss_url\": null,\n                 \"contact_form\":
+        \"https://www.kaine.senate.gov/contact\",\n                 \"in_office\":
+        false,\n                 \"cook_pvi\": null,\n                 \"dw_nominate\":
+        -0.243,\n                 \"ideal_point\": null,\n                 \"seniority\":
+        \"7\",\n                 \"next_election\": \"2024\",\n                 \"total_votes\":
+        717,\n                 \"missed_votes\": 17,\n                 \"total_present\":
+        1,\n                 \"last_updated\": \"2020-12-30 19:01:18 -0500\",\n                 \"ocd_id\":
+        \"ocd-division/country:us/state:va\",\n                 \"office\": \"231
+        Russell Senate Office Building\",\n                 \"phone\": \"202-224-4024\",\n
+        \                \"fax\": null,\n                 \"state\": \"VA\",\n                 \"senate_class\":
+        \"1\",\n                 \"state_rank\": \"junior\",\n                 \"lis_id\":
+        \"S362\"\n                 ,\"missed_votes_pct\": 2.37,\n                 \"votes_with_party_pct\":
+        94.98,\n                 \"votes_against_party_pct\": 5.02\n               },\n
+        \                          {\n                 \"id\": \"K000377\",\n                 \"title\":
+        \"Senator, 3rd Class\",\n                 \"short_title\": \"Sen.\",\n                 \"api_uri\":\"https://api.propublica.org/congress/v1/members/K000377.json\",\n
         \                \"first_name\": \"Mark\",\n                 \"middle_name\":
         null,\n                 \"last_name\": \"Kelly\",\n                 \"suffix\":
         null,\n                 \"date_of_birth\": \"1964-02-21\",\n                 \"gender\":
@@ -1773,7 +1770,7 @@ http_interactions:
         \"25277\",\n                 \"votesmart_id\": \"53358\",\n                 \"icpsr_id\":
         \"49308\",\n                 \"crp_id\": \"N00007876\",\n                 \"google_entity_id\":
         \"/m/018qx5\",\n                 \"fec_candidate_id\": \"S2WA00189\",\n                 \"url\":
-        \"https://www.murray.senate.gov/public\",\n                 \"rss_url\": \"https://www.murray.senate.gov/public/?a=RSS.Feed\",\n
+        \"https://www.murray.senate.gov/public\",\n                 \"rss_url\": \"https://www.murray.senate.gov/category/press-releases/feed/\",\n
         \                \"contact_form\": \"http://www.murray.senate.gov/public/index.cfm/contactme\",\n
         \                \"in_office\": false,\n                 \"cook_pvi\": null,\n
         \                \"dw_nominate\": -0.352,\n                 \"ideal_point\":
@@ -2133,7 +2130,7 @@ http_interactions:
         \"87784\",\n                 \"votesmart_id\": \"17852\",\n                 \"icpsr_id\":
         \"41112\",\n                 \"crp_id\": \"N00028138\",\n                 \"google_entity_id\":
         \"/m/0dd109\",\n                 \"fec_candidate_id\": \"S4HI00136\",\n                 \"url\":
-        \"https://www.schatz.senate.gov\",\n                 \"rss_url\": \"https://www.schatz.senate.gov/rss/feeds/?press\",\n
+        \"https://www.schatz.senate.gov\",\n                 \"rss_url\": null,\n
         \                \"contact_form\": \"https://www.schatz.senate.gov/contact\",\n
         \                \"in_office\": false,\n                 \"cook_pvi\": null,\n
         \                \"dw_nominate\": -0.443,\n                 \"ideal_point\":
@@ -2688,5 +2685,5 @@ http_interactions:
         \"senior\",\n                 \"lis_id\": \"S391\"\n                 ,\"missed_votes_pct\":
         1.81,\n                 \"votes_with_party_pct\": 94.99,\n                 \"votes_against_party_pct\":
         5.01\n               }\n             ]\n      }\n   ]\n}\n"
-  recorded_at: Tue, 30 Nov 2021 17:46:25 GMT
+  recorded_at: Tue, 11 Jan 2022 15:13:14 GMT
 recorded_with: VCR 6.0.0
