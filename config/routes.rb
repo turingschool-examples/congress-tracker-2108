@@ -8,9 +8,7 @@ Rails.application.routes.draw do
   delete '/logout', to: 'sessions#destroy'
   get '/logout', to: 'sessions#destroy'
 
-  scope module: :user do 
-    get '/search', to: 'search#index'
-    post '/search', to: 'congress#search'
-    post '/search_state', to:'congress#search_state'
-  end 
+  get '/search', to: 'search#index'
+  post '/search', to: 'congress#search'
+  post '/search_state', to:'congress#search_state'
 end
