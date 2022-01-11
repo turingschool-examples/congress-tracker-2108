@@ -29,5 +29,9 @@ module CongressTracker2108
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+    # NOTE: The following 3 configs are only needed in an API only application for sidekiq
+    # config.session_store :cookie_store, key: '_interslice_session'
+    # config.middleware.use ActionDispatch::Cookies
+    # config.middleware.use config.session_store, config.session_options
   end
 end
