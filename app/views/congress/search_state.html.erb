@@ -1,4 +1,5 @@
 <% if @house_members %>
+<% cache "house-members-#{@state}" do %>
   <h1><%=@house_members.size%> Results </h1>
   <% @house_members.each do |house_member| %>
     <ul class="house_members">
@@ -8,4 +9,6 @@
       <li class="district"><%= house_member.district%></li>
     </ul>
   <% end %>
+<% end %>
+
 <% end %>
